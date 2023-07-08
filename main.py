@@ -12,18 +12,14 @@ os.environ["OPENBLAS_L2SIZE"]="512k"
 
 app = FastAPI(title = 'Consultas en Plataforma sobre Peliculas')
 
-#description= 'API para realizar las consultas requeridas '
-df1=pd.read_csv('https://raw.githubusercontent.com/Fe23arg/Dev_pi1_12/main/direct_P.csv')
-df2=pd.read_csv('https://raw.githubusercontent.com/Fe23arg/Dev_pi1_12/main/mov_API_12.csv')
-dft=pd.read_csv('https://raw.githubusercontent.com/Fe23arg/Pi1_12/main/final_Api_12.csv')
+dft=pd.read_csv('https://raw.githubusercontent.com/Fe23arg/Pi1_12_DEV/main/raw/final_Api_12.csv')
 #--------------------------------------------------------------------------------------
 @app.get("/")   
 def index():
     multi_line_string = """
-Para el correcto funcionamiento de la API se debe considerar lo siguiente:
+* Para el correcto funcionamiento de la API se debe considerar lo siguiente:
 * Modificar el valor del parámetro introduciendo valores válidos que se encuentren 
-en el Dataset.
-* Respetar siempre la ubicación que cada parámetro como se provee en el código.
+* en el Dataset.Respetar siempre la ubicación que cada parámetro como se provee en el código.
 """
     return  multi_line_string
 
@@ -34,14 +30,13 @@ def contacto():
     return "Email:                / Github: Fe23arg"
  
 #--------------------------------------------------------------------------------------
-
-  
+ 
 @app.get("/peliculas_idioma/{Idioma}")
 def peliculas_idioma( Idioma: str ):
   #debe ingresar la abreiatura de idioma ya que estan en una misma denominacion del alfabeto
   cant=0
-  for i in range (len(df2["original_language"])):
-      if Idioma == df2['original_language'][i]:
+  for i in range (len(dft["original_language"])):
+      if Idioma == dft['original_language'][i]:
           cant=cant +1
   if cant==0:
       return ("Ingreso incorrecto, recuerde escribir todo en minúsculas.")
@@ -55,16 +50,15 @@ def peliculas_idioma( Idioma: str ):
 def peliculas_duracion( Pelicula: str ):
 #Se ingresa una pelicula. Debe devolver la la duracion y el año.
 
-  for i in range(len(df2["title"])):
-      cop=(df2["title"][i])
+  for i in range(len(dft["title"])):
+      cop=(dft["title"][i])
       if (Pelicula)==cop:
-          anio=str(df2["release_year"][i])
-          duracion=str(df2["runtime"][i])
+          anio=str(dft["release_year"][i])
+          duracion=str(dft["runtime"][i])
           return{' Titulo de la pelicula':Pelicula,' duracion':duracion,' Año de estreno':anio}
 
 #--------------------------------- 
 #peliculas_duracion('Jumanji') 
-
 #------------------------------------------------------------------------------------------
 
 @app.get("/franquicia/{Franquicia}")
@@ -72,10 +66,10 @@ def franquicia( Franquicia:str ):
   
   ganancia=0
   cant=0
-  for i  in range(len(df2)):
-      if df2.Franquicia_P[i]==Franquicia:
+  for i  in range(len(dft)):
+      if dft.Franquicia_P[i]==Franquicia:
           cant=cant+1
-          ganancia=ganancia+df2.revenue[i]       
+          ganancia=ganancia+dft.revenue[i]       
   if cant==0:
       return{'Ingreso incorrecto,o pelicula sin franquicia,recuerde respetar mayusculas y minusculas en el nombre'}
   else:
@@ -92,14 +86,14 @@ def peliculas_pais( Pais: str ):
 #                   Ejemplo de retorno: Se produjeron X películas en el país X
 
   cant=0
-  for i  in range(len(df2.paises)):
+  for i  in range(len(dft.paises)):
 
-      if type(df2.paises[i])==list:
-          for j in df2.paises[i]:
+      if type(dft.paises[i])==list:
+          for j in dft.paises[i]:
               if j==Pais:
                   cant=cant+1
       else:
-          if df2.paises[i]==Pais:
+          if dft.paises[i]==Pais:
               cant=cant+1
 
   if cant==0:
@@ -119,20 +113,20 @@ def productoras_exitosas( Productora: str ):
   ganancia=0
   band=False
   cant=0
-  for i  in range(len(df2.productoras)):
+  for i  in range(len(dft.productoras)):
 
-      if type(df2.productoras[i])==list:
+      if type(dft.productoras[i])==list:
 
-          for j in df2.productoras[i]:
+          for j in dft.productoras[i]:
 
               if j==Productora:
                   band=True
-                  ganancia=ganancia+df2.revenue[i]
+                  ganancia=ganancia+dft.revenue[i]
                   cant=cant+1
       else:
-          if df2.productoras[i]==Productora:
+          if dft.productoras[i]==Productora:
               band=True
-              ganancia=ganancia+df2.revenue[i]
+              ganancia=ganancia+dft.revenue[i]
               cant=cant+1
   if band==False:
       return{' Ingreso incorrecto,recuerde diferenciar mayuscula y minusculas'}
@@ -183,10 +177,8 @@ def get_director( nombre_director:str ):
 @app.get("/recomendacion/{titulo}")
 def recomendacion(titulo:str):
   
-  
-  df2=pd.read_csv('https://raw.githubusercontent.com/Fe23arg/Dev_pi1_12/main/mov_API_12.csv')
    #Usamos solo la primeras 15000 filas para el modelo por recurso dispobles de calculo
-  movieRatings = df2[0:5000].pivot_table(index=['id'],columns=['title'],values='vote_average') 
+  movieRatings = dft[0:5000].pivot_table(index=['id'],columns=['title'],values='vote_average') 
   
   titu_df = movieRatings[titulo]
 
@@ -200,7 +192,7 @@ def recomendacion(titulo:str):
 
   # agregamos por titulo y devolvemos el  
   # numero de veces que se puntuo, y la media de puntuacion  
-  movieStats = df2[0:5000].groupby('title').agg({'vote_average': [np.size, np.mean]})
+  movieStats = dft[0:5000].groupby('title').agg({'vote_average': [np.size, np.mean]})
 
   # nos quedamos con todas las que tengan mas de 3 puntuaciones  
   # de distintos usuarios  
