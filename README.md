@@ -26,8 +26,8 @@ https://youtu.be/fg8NJj79cao
 
 
 🟣 Link de acceso a las funciones
-* Instrucciones:   https://pi1-he-dev.onrender.com/docs#/default/index__get
-* contacto:   https://pi1-he-dev.onrender.com/docs#/default/contacto_contacto_get
+* [Instrucciones:]+(https://pi1-he-dev.onrender.com/docs#/default/index__get)
+* [contacto:]+(https://pi1-he-dev.onrender.com/docs#/default/contacto_contacto_get)
 * peliculas_idioma: https://pi1-he-dev.onrender.com/docs#/default/peliculas_idioma_peliculas_idioma__Idioma__get
 * peliculas_duracion: https://pi1-he-dev.onrender.com/docs#/default/peliculas_duracion_peliculas_duracion__Pelicula__get
 * franquicia :  https://pi1-he-dev.onrender.com/docs#/default/franquicia_franquicia__Franquicia__get
