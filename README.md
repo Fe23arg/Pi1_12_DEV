@@ -1,8 +1,8 @@
-# Dev_pi1_12
+# Proyecto Individual
 
 
 Proyecto individual: para consulta realizadas sobre los datos  de peliculas
-devolviendo resultados requeridos en formato especificos,mediante el analisis de puntuaciones  
+devolviendo resultados requeridos en formato especificos.
 
 video explicativo: 
 
@@ -25,7 +25,7 @@ https://youtu.be/fg8NJj79cao
 ⚠️
 
 
-🟣 Funciones de presentacion
+🟣 Link de acceso a las funciones
 * Instrucciones:   https://pi1-he-dev.onrender.com/docs#/default/index__get
 * contacto:   https://pi1-he-dev.onrender.com/docs#/default/contacto_contacto_get
 * peliculas_idioma: https://pi1-he-dev.onrender.com/docs#/default/peliculas_idioma_peliculas_idioma__Idioma__get
@@ -34,5 +34,5 @@ https://youtu.be/fg8NJj79cao
 * peliculas_pais :  https://pi1-he-dev.onrender.com/docs#/default/peliculas_pais_peliculas_pais__Pais__get
 * productoras_exitosas:  https://pi1-he-dev.onrender.com/docs#/default/productoras_exitosas_productoras_exitosas__Productora__get
 * get_director : https://pi1-he-dev.onrender.com/docs#/default/get_director_get_director__nombre_director__get
-* Rrecomendacion : https://pi1-he-dev.onrender.com/docs#/default/recomendacion_recomendacion__titulo__get
+* recomendacion : https://pi1-he-dev.onrender.com/docs#/default/recomendacion_recomendacion__titulo__get
 
