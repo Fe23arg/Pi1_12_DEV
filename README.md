@@ -19,8 +19,7 @@ https://youtu.be/fg8NJj79cao
 
 ⚠️  
 
- Nombres diferenciar mayusculas de minusculas al ingresar.
- En caso de la query no arroje resultados, un mensaje explicativo se imprimirá en pantalla.
+ Al ingresar Nombres recuerde diferenciar mayusculas de minusculas.Cuando las consultas no devuelvan resultados, un mensaje explicativo se imprimirá en pantalla.
 
 ⚠️
 
@@ -36,7 +35,7 @@ https://youtu.be/fg8NJj79cao
 * [get_director :](https://pi1-he-dev.onrender.com/docs#/default/get_director_get_director__nombre_director__get)
 * [recomendacion :](https://pi1-he-dev.onrender.com/docs#/default/recomendacion_recomendacion__titulo__get)
 
-🟣 Link de acceso a las funciones con parametro de ejemplo
+🟣 Link de acceso a las funciones con parametros de ejemplo(clic derecho y abrir en ventana nueva)
 * [Instrucciones:](https://pi1-he-dev.onrender.com/docs#/default/index__get)
 * [contacto:](https://pi1-he-dev.onrender.com/docs#/default/contacto_contacto_get)
 * [peliculas_idioma:en](https://pi1-he-dev.onrender.com/peliculas_idioma/en)
