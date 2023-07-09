@@ -28,11 +28,11 @@ https://youtu.be/fg8NJj79cao
 🟣 Link de acceso a las funciones
 * [Instrucciones:](https://pi1-he-dev.onrender.com/docs#/default/index__get)
 * [contacto:](https://pi1-he-dev.onrender.com/docs#/default/contacto_contacto_get)
-* peliculas_idioma: https://pi1-he-dev.onrender.com/docs#/default/peliculas_idioma_peliculas_idioma__Idioma__get
-* peliculas_duracion: https://pi1-he-dev.onrender.com/docs#/default/peliculas_duracion_peliculas_duracion__Pelicula__get
-* franquicia :  https://pi1-he-dev.onrender.com/docs#/default/franquicia_franquicia__Franquicia__get
-* peliculas_pais :  https://pi1-he-dev.onrender.com/docs#/default/peliculas_pais_peliculas_pais__Pais__get
-* productoras_exitosas:  https://pi1-he-dev.onrender.com/docs#/default/productoras_exitosas_productoras_exitosas__Productora__get
-* get_director : https://pi1-he-dev.onrender.com/docs#/default/get_director_get_director__nombre_director__get
-* recomendacion : https://pi1-he-dev.onrender.com/docs#/default/recomendacion_recomendacion__titulo__get
+* [peliculas_idioma:](https://pi1-he-dev.onrender.com/docs#/default/peliculas_idioma_peliculas_idioma__Idioma__get)
+* [peliculas_duracion:](https://pi1-he-dev.onrender.com/docs#/default/peliculas_duracion_peliculas_duracion__Pelicula__get)
+* [franquicia :](https://pi1-he-dev.onrender.com/docs#/default/franquicia_franquicia__Franquicia__get)
+* [peliculas_pais :](https://pi1-he-dev.onrender.com/docs#/default/peliculas_pais_peliculas_pais__Pais__get)
+* [productoras_exitosas:](https://pi1-he-dev.onrender.com/docs#/default/productoras_exitosas_productoras_exitosas__Productora__get)
+* [get_director :](https://pi1-he-dev.onrender.com/docs#/default/get_director_get_director__nombre_director__get)
+* [recomendacion :](https://pi1-he-dev.onrender.com/docs#/default/recomendacion_recomendacion__titulo__get)
 
