@@ -25,7 +25,7 @@ https://youtu.be/fg8NJj79cao
 ⚠️
 
 
-🟣 Link de acceso a las funciones
+🟣 Link de acceso a las funciones 
 * [Instrucciones:](https://pi1-he-dev.onrender.com/docs#/default/index__get)
 * [contacto:](https://pi1-he-dev.onrender.com/docs#/default/contacto_contacto_get)
 * [peliculas_idioma:](https://pi1-he-dev.onrender.com/docs#/default/peliculas_idioma_peliculas_idioma__Idioma__get)
@@ -36,3 +36,13 @@ https://youtu.be/fg8NJj79cao
 * [get_director :](https://pi1-he-dev.onrender.com/docs#/default/get_director_get_director__nombre_director__get)
 * [recomendacion :](https://pi1-he-dev.onrender.com/docs#/default/recomendacion_recomendacion__titulo__get)
 
+🟣 Link de acceso a las funciones con parametro de ejemplo
+* [Instrucciones:](https://pi1-he-dev.onrender.com/docs#/default/index__get)
+* [contacto:](https://pi1-he-dev.onrender.com/docs#/default/contacto_contacto_get)
+* [peliculas_idioma:en](https://pi1-he-dev.onrender.com/peliculas_idioma/en)
+* [peliculas_duracion:Jumanji](https://pi1-he-dev.onrender.com/peliculas_duracion/Jumanji)
+* [franquicia :Toy Story Collection](https://pi1-he-dev.onrender.com/franquicia/Toy%20Story%20Collection)
+* [peliculas_pais :United States of America](https://pi1-he-dev.onrender.com/peliculas_pais/United%20States%20of%20America)
+* [productoras_exitosas:Warner Bros](https://pi1-he-dev.onrender.com/productoras_exitosas/Warner%20Bros.)
+* [get_director :Michelle Danne](https://pi1-he-dev.onrender.com/get_director/Michelle%20Danner)
+* [recomendacion :Jumanji](https://pi1-he-dev.onrender.com/recomendacion/Jumanji)
