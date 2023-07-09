@@ -4,9 +4,7 @@
 Proyecto individual: para consulta realizadas sobre los datos  de peliculas
 devolviendo resultados requeridos en formato especificos.
 
-video explicativo: 
-
-https://youtu.be/fg8NJj79cao
+[video explicativo:](https://youtu.be/fg8NJj79cao)
 
 * ETL_pi1_12 -   Transformación de Datos.ipynb - paso a paso del ETL.
 * API_pi1_12 -  Creacion de API paso a paso 
@@ -24,7 +22,7 @@ https://youtu.be/fg8NJj79cao
 ⚠️
 
 
-🟣 Link de acceso a las funciones 
+🟣 Link de acceso a las funciones (clic derecho y abrir en pestaña nueva donde ingresara parametros)
 * [Instrucciones:](https://pi1-he-dev.onrender.com/docs#/default/index__get)
 * [contacto:](https://pi1-he-dev.onrender.com/docs#/default/contacto_contacto_get)
 * [peliculas_idioma:](https://pi1-he-dev.onrender.com/docs#/default/peliculas_idioma_peliculas_idioma__Idioma__get)
@@ -35,7 +33,7 @@ https://youtu.be/fg8NJj79cao
 * [get_director :](https://pi1-he-dev.onrender.com/docs#/default/get_director_get_director__nombre_director__get)
 * [recomendacion :](https://pi1-he-dev.onrender.com/docs#/default/recomendacion_recomendacion__titulo__get)
 
-🟣 Link de acceso a las funciones con parametros de ejemplo(clic derecho y abrir en ventana nueva)
+🟣 Link de acceso a las funciones con parametros de ejemplo(clic derecho y abrir en pestaña nueva)
 * [Instrucciones:](https://pi1-he-dev.onrender.com/docs#/default/index__get)
 * [contacto:](https://pi1-he-dev.onrender.com/docs#/default/contacto_contacto_get)
 * [peliculas_idioma:en](https://pi1-he-dev.onrender.com/peliculas_idioma/en)
