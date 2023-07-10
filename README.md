@@ -48,3 +48,7 @@ devolviendo resultados requeridos en formato especificos.
 * [productoras_exitosas:Warner Bros](https://pi1-he-dev.onrender.com/productoras_exitosas/Warner%20Bros.)
 * [get_director :Michelle Danne](https://pi1-he-dev.onrender.com/get_director/Michelle%20Danner)
 * [recomendacion :Jumanji](https://pi1-he-dev.onrender.com/recomendacion/Jumanji)
+
+
+
+nota: el siguiente link lleva a [repo  con visualizacion](https://github.com/Fe23arg/Pi1_dev2_12)las consultas son hechas sobre las mismas bases pero se realizo aparte para continuar revisando y respetar el tiempo de entrega de este proyecto
