@@ -52,3 +52,5 @@ devolviendo resultados requeridos en formato especificos.
 
 
 nota: el siguiente link lleva a [repo  con visualizacion](https://github.com/Fe23arg/Pi1_dev2_12)las consultas son hechas sobre las mismas bases pero se realizo aparte para continuar revisando y respetar el tiempo de entrega de este proyecto
+
+[pagina APi](https://fe23arg.github.io/Pi1_dev2_12/) Este link lleva a pagina que representa visualmente y mediante estructura api rest las consultas con un entorno separado
