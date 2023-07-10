@@ -144,12 +144,14 @@ def get_director( nombre_director:str ):
   li=[]
   resu=''
   acum=0
-
-  for i in range(len(dft['directores'])):
-      nom_dir=dft['directores'][i]
-      if type(nom_dir)==list:
-          for  n in range(len(nom_dir)):
-              if nombre_director == nom_dir[n]:
+  band=True
+  for i in range(len(dft.directores)):
+      
+      if type(dft.directores[i])==list:
+          #nom_dir=dft.directores[i]
+          for  n in dft.directores[i]:
+              if nombre_director == n:
+                  band=True
                   tit=dft["title"][i]
                   fec=dft["release_year"][i]
                   costo=dft["budget"][i]
@@ -159,8 +161,9 @@ def get_director( nombre_director:str ):
                   resu='director: '+str(nombre_director)+'  retorno_total_director: '+str(acum)+'  pelicula: '+str(tit)+'  anio: '+str(fec)+'  retorno_pelicula: '+str(ret)+'  budget_pelicula: '+str(costo)+' revenue_pelicula: '+str(ganancia)
                   li.append(resu)
          
-      elif type(nom_dir)==str:
-          if nombre_director == nom_dir:
+      else:
+          if nombre_director == dft.directores[i]:
+                  band=True
                   tit=dft["title"][i]
                   fec=dft["release_year"][i]
                   costo=dft["budget"][i]
@@ -169,8 +172,11 @@ def get_director( nombre_director:str ):
                   ret=ganancia-costo
                   resu='director: '+str(nombre_director)+'  retorno_total_director: '+str(acum)+'  pelicula: '+str(tit)+'  anio: '+str(fec)+'  retorno_pelicula: '+str(ret)+'  budget_pelicula: '+str(costo)+' revenue_pelicula: '+str(ganancia)
                   li.append(resu)
-             
-  return{'lista':li}
+  if band==False:
+      return{' Ingreso incorrecto,Recuerde diferenciar mayuscula y minusculas'}
+  else:
+      return{'lista':li}             
+ 
 
 # -------------------------------------
 # get_director('Forest Whitaker')
