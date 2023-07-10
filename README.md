@@ -1,5 +1,6 @@
 # Proyecto Individual
 
+![presentacion](https://raw.githubusercontent.com/Fe23arg/Pi1_12_DEV/main/raw/)
 
 Proyecto individual: consultas realizadas sobre los datos  de peliculas
 devolviendo resultados requeridos en formato especificos.
