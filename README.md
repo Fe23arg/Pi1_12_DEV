@@ -9,12 +9,14 @@ devolviendo resultados requeridos en formato especificos.
 
 ## Descripcion de elementos
 
+* EDA_pi1_12 -   Analisis.ipynb - paso a paso del EDA.
 * ETL_pi1_12 -   Transformación de Datos.ipynb - paso a paso del ETL.
 * API_pi1_12 -  Creacion de API paso a paso 
 * README -   Instrucciones de uso.
 * main.py -   el código de la API.
 * final_Api_12 -   el csv que se utiliza para las consultas.
 * requirements.txt -   dependencias necesarias para que funcione.
+* raw - carpeta que contiene los archivo csv preprocesados y finales
 
 🟣 Instrucciones: 
 
