@@ -5,7 +5,7 @@
 Proyecto individual: consultas realizadas sobre los datos  de peliculas
 devolviendo resultados requeridos en formato especificos.
 
-*[video explicativo](https://youtu.be/fg8NJj79cao)*
+*[video explicativo](https://youtu.be/ksJkcfMct5g)*
 
 ## Descripcion de elementos
 
