@@ -51,6 +51,6 @@ devolviendo resultados requeridos en formato especificos.
 
 
 
-nota: el siguiente link lleva a [repo  con visualizacion](https://github.com/Fe23arg/Pi1_dev2_12)las consultas son hechas sobre las mismas bases pero se realizo aparte para continuar revisando y respetar el tiempo de entrega de este proyecto
+nota: el siguiente link lleva a [repo  con visualizacion](https://github.com/Fe23arg/Pi1_dev2_12)las consultas son hechas sobre las mismas bases pero se realizo a parte para continuar revisando y respetar el tiempo de entrega de este proyecto.Ademas prever posibles cortes o reparaciones q estuvieron haciendo en mi provincia por lo cual solicito  q revisen los archivos correspondiente con este : el EDA,ETL,EPI ya tiene los archivos correctos cuando se reestablecio coneccion.
 
 [pagina APi](https://fe23arg.github.io/Pi1_dev2_12/) Este link lleva a pagina que representa visualmente y mediante estructura api rest las consultas con un entorno separado
